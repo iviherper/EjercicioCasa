@@ -4,6 +4,11 @@ public class Direccion {
 	private String nom_via;
 	private String cp;
 	private int num;
+	
+	public Direccion() {
+		super();
+	}
+	
 	public Direccion(String tipovia, String nom_via, String cp, int num) {
 		super();
 		this.tipovia = tipovia;

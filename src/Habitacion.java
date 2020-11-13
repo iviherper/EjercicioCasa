@@ -7,6 +7,11 @@ public class Habitacion {
 	public String toString() {
 		return "Habitacion m2=" + m2 + ", tipo=" + tipo + ", num=" + num;
 	}
+	
+	public Habitacion() {
+		super();
+	}
+	
 	public Habitacion(int m2, String tipo, int num) {
 		super();
 		this.m2 = m2;

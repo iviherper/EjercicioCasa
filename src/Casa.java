@@ -7,7 +7,11 @@ public class Casa {
 	private Persona propietario;
 	private ArrayList<Persona> inquilino;
 	private int precio;
-
+	
+	public Casa() {
+		super();
+	}
+	
 	public Casa(Direccion direcion, ArrayList<Habitacion> habitaciones, Persona propietario,
 			ArrayList<Persona> inquilino, int precio) {
 		super();

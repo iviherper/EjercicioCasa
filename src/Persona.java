@@ -8,6 +8,11 @@ public class Persona {
 	public String toString() {
 		return "Persona nombre=" + nombre + ", dni=" + dni + ", telefono=" + telefono + ", direccion=" + direccion;
 	}
+	
+	public Persona() {
+		super();
+	}
+	
 	public Persona(String nombre, String dni, String telefono, Direccion direccion) {
 		super();
 		this.nombre = nombre;
